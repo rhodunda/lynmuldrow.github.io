@@ -1,0 +1,78 @@
+/* =============================================================================
+   Basic Profile Portfolio - Lyn Muldrow
+   ========================================================================== */
+/* Here's an open source portfolio that you can use out-of-the-box for your beginner's portfolio. 
+This is 'vanilla' CSS but could certainly be made DRY. Feel free to practice refactoring here, and submit your changes via pull request. */
+
+
+body {
+	color: "#5D5E60" ;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+  	height: 100%;
+	overflow: hidden;
+}
+
+.title {
+    padding: 100px;
+    z-index: 10;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+	width: 100%;
+}
+
+.content {
+	z-index: 10;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(175%);
+	text-align: center;
+    width: 100%;
+    color: 000;
+}
+
+.icons {
+    z-index: 10;
+	position: absolute;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%) translateY(150%);
+	text-align: center;
+    width: 100%;
+    color: 000;
+}
+
+h1 {
+    position: relative;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Quicksand', sans-serif;
+	text-shadow: 0 0 10px #ddc122, 0 0 10px #ddc122, 0 0 20px #ddc122, 0 0 40px #e7b21f, 0 0 70px #e7b21f, 0 0 80px #e7b21f, 0 0 100px #e7b21f, 0 0 150px #e7b21f;
+}
+
+span {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+	color: #FFFFFF;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+}
