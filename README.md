@@ -10,14 +10,17 @@ To install, fork this repo to take a copy for your github. Next, run `git clone`
 
 ![Git Clone Directions](https://www.earthdatascience.org/images/earth-analytics/git-version-control/git-clone-repo.gif)
 
+### Demo
+This site can be viewed on my [personal github.io page](http://lynmuldrow.github.io). I encourage you to create your own Github Pages site for your portfolio! 
+
 ### Adding to Your Own .io Page
 If you'd like to use Github Pages to host your portfolio site (for free!), [check out this link.](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 
 ---
 ## Submitting a Pull Request
-Submitting a pull request is welcomed! I'm going to leave this as a small personal portfolio, but I left a few places to be edited or cleaned up, especially on the `style.css` file. 
+Submitting a pull request is welcomed! I'm going to leave this up as a small personal portfolio, but I left a few places to be edited or cleaned up, especially on the `style.css` file. 
 
-Try your hand at submitting a pull request with changes to the CSS, and I'll integrate it. It's great practice to contribute to open source projects and something that helped me when I learned.
+Try your hand at submitting a pull request with changes to the CSS and I'll integrate it. It's great practice to contribute to open source projects and something that helped me when I learned. Have fun! 
 
 ---
 ## Pay It Forward 
