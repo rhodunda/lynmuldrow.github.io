@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<body>
 <head>
     <meta charset="utf-8" />
     <meta />
@@ -18,25 +18,30 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="author" href="humans.txt" />
+    <script defer src="index.js"></script>
+    <script defer src="home.js"></script>
+    <script defer src="projects.js"></script>
+    <script defer src="blogs.js"></script>
+
 </head>
         <!-- nav bar -->
 <nav class="navbar navbar-dark bg-dark" id='navbar'>
     <span class="navbar-text">
         Bryan Rhodunda
     </span>
-    <button id="btn-project" class="btn btn-sm btn-outline-secondary" type="button">Home</button>
-    <button id="btn-project" class="btn btn-sm btn-outline-secondary" type="button">Project's</button>
-    <button id="btn-project" class="btn btn-sm btn-outline-secondary" type="button">blogs</button>
+    <button id="btn-project-home" class="btn btn-sm btn-outline-secondary" type="button">Home</button>
+    <button id="btn-project-projects" class="btn btn-sm btn-outline-secondary" type="button">Project's</button>
+    <button id="btn-project-blogs" class="btn btn-sm btn-outline-secondary" type="button">blog's</button>
     
 </nav>
 
 
 <body>
         <!-- document content -->
-    <div class="main"></div>
-
-</body>
-
+    <div class="detail">
+    <aside class="aside"></aside>
+</div>
+    
         <!-- git hub corner -->
     <a
         href="https://github.com/rhodunda"
@@ -124,6 +129,7 @@
     </div>
     </footer>    
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Necessary Scripts -->
     <script
@@ -131,5 +137,5 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"
     ></script>
-
+</body>
 </html>
