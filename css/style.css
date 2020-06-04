@@ -64,8 +64,13 @@
 }
 
 .aside {
-  width: 40%;
-  padding-left: 5px;
-  margin-left: 5px;
+  width: 20%;
+  height: 100%;
   float: left;
+  grid-area: nav;
+  background-color: bisque;
+}
+
+.interest {
+  padding-top: 25px;
 }
